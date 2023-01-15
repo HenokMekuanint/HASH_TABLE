@@ -1,6 +1,5 @@
 # HASH_TABLE using c programming language
 
-1 Operating Systems and System Programming Assignment 2 1.1 
 Part I: Hash Table In this part you will implement the hash table data structure. 
 You should use the separate chaining technique which is described in the COS 217 ‑ Data structures Lecture. Pay close attention to the linked list part as well, as the implementation of the hash table depends on it. You are required to use a linked list to implement the hash bucket list. Your struct implementations can look like this: const BUCKET_COUNT = 1024;
 struct Binding{ const char* key; int value; struct Binding* next; }
